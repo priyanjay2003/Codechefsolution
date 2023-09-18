@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int T,m,r,p;
+	cin>>T;
+	while(T--){
+	    cin>>m>>r>>p;
+	    if((m+r)&1 || (r+p)&1 || (p+m)&1){
+	        cout<<"YES\n";
+	    }else{
+	        cout<<"NO\n";
+	    }
+	}
+	return 0;
+}
